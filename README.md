@@ -1,2 +1,2 @@
 # FarmStead
-CSS/HTML example
+CSS example
