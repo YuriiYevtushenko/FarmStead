@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import '../styles/main.scss'
+
 import image from '../images/header_search.png'
 const Header = () => {
     const [search,setSearch]=useState(false)
