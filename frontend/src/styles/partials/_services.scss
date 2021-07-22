@@ -13,11 +13,18 @@
     align-items: flex-start;
     margin-bottom: 70px;
     position: relative;
+    flex-wrap: wrap;
     &__left{
       width: 50%;
+      @include media(md){
+        width: 100%;
+      }
     }
     &__right{
       width: 50%;
+      @include media(md){
+        width: 100%;
+      }
     }
   }
   &__title{
@@ -44,6 +51,9 @@
 
     bottom: 50%;
     transform: translate(50%, 50%);
+    @include media(md){
+      display: none;
+    }
   }
   &__content{
     display: flex;
