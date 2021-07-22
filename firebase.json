@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "frontend",
+    "public": "food",
     "ignore": [
       "firebase.json",
       "**/.*",
